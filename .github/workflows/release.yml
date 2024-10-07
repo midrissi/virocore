@@ -2,6 +2,8 @@ name: Release with changelog
 
 on:
   push:
+    branches:
+      - "*"
     tags:
       - "*"
 
