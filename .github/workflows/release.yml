@@ -62,4 +62,4 @@ jobs:
             ./virocore/build/outputs/aar/virocore-release.aar
             ./sharedCode/build/outputs/aar/sharedCode-release.aar
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
